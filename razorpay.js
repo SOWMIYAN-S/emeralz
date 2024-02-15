@@ -5,10 +5,10 @@ function makePayment() {
 
   // You can add more data like item name, amount, etc., to be sent to Razorpay
   var options = {
-    key: 'YOUR_RAZORPAY_KEY',
+    key: 'rzp_live_a9PP7UOKb8oU8S',
     amount: 10000, // Example amount in paise (100 paise = 1 INR)
     currency: 'INR',
-    name: 'Your Company Name',
+    name: 'EMERALZ',
     description: 'Purchase Description',
     handler: function(response) {
       // Handle the success callback after payment completion
