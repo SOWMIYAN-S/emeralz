@@ -1,0 +1,97 @@
+html {
+    background-color: white;
+
+}
+
+header{
+  font-family:'EM';
+  color: limegreen;
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  margin: 0px;
+  
+}
+
+h2{
+  font-family:'IN';
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+body{
+  margin: 0px;
+}
+
+
+
+
+
+form{
+  font-family:'IN';
+  text-align: center;
+  background-image: url("bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 20px;
+  
+}
+
+input {
+  font-family:'IN';
+  background-color: green; /* Green */
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input::placeholder {
+  text-align: center;
+  font-family: 'IN', Arial, sans-serif; 
+  color: white;
+}
+
+input:hover{
+  
+  background: lightseagreen;
+}
+
+#payb{
+  font-family: 'IN';
+  font-size: 15px;
+  background-color: orange;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+#payb:hover{
+  font-family: 'IN';
+  font-size: 15px;
+  background-color: orangered;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+marquee{
+  font-family:'IN';
+  background-color:green;
+  color: white;
+  padding: 5px;
+  
+}

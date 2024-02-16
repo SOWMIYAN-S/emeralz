@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Razorpay Integration</title>
-  <!-- Include the Razorpay Checkout library -->
+   <link rel="stylesheet" href="font.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="LOGO.png">
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <title>EMARALZ</title>
 </head>
 <body>
+  
+  <header>EMERALZ PAY</header>
+    
+    <marquee behavior="" direction="">DISCLAIMER :  All transactions are final and non-refundable after 3 days. Please review your purchase carefully before completing the transaction.
+</marquee>
+    
+    
+    
+    
+    <form id="paymentForm">
+      
+      <input type="number" id="customAmount" required placeholder="Amount"><br>
+      
+      <input type="tel" id="phone" name="phone" required placeholder="Enter Number">
+      <br>
+     
+        <input type="email" id="email" name="email" required placeholder="Enter Email" ><br><br>
+        
+        <button type="button" id="payb" onclick="makePayment()"> GENERATE PAYMENT </button>
+    </form>
 
-<h2>Enter Your Contact Information and Proceed to Payment</h2>
 
-<form id="paymentForm">
-  <label for="phone">Phone Number:</label>
-  <input type="tel" id="phone" name="phone" required><br><br>
 
-  <label for="email">Email Address:</label>
-  <input type="email" id="email" name="email" required><br><br>
-
-  <!-- Add your other form fields and details for the payment -->
-  <!-- For example: item name, amount, etc. -->
-
-  <!-- Razorpay Button -->
-  <button type="button" onclick="makePayment()">Proceed to Pay</button>
-</form>
-
-  <script src="razorpay.js"></script>
-
+    <script src="razorpay.js"></script>
 </body>
 </html>
