@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="asserts/player.css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<title>Video Player with Timer</title>
+
+
+
+
+
+</head>
+<body oncontextmenu="return false;">
+
+<header>
+    <img src="asserts/images/logos/alogo.png" alt="" class="brand">
+    
+    <details>
+      
+      <summary> <span class="material-symbols-outlined">menu</span></summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+         
+    </details>
+    
+
+    
+  </header>
+  
+  
+   <nav class="ncont">
+    <a href="https://www.instagram.com/emeralz_?igsh=bzlzaDJkaHFhanBw">
+    <img src="images/slide/slide1.jpg" class="navimg" alt="">
+    </a>
+  </nav>
+
+<div id="videoContainer">
+  <video id="video" src="S1E01 - Solo Leveling [720p] [Multi-Audio].mkv" autoplay crossorigin controls poster="thumbnai.png" >
+    <source type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+<button class="btn btn-success"><div id="timer">00:00</div></button>
+
+<button id="endButton">Video Ended</button>
+
+<script>
+var video = document.getElementById("video");
+var timerElement = document.getElementById("timer");
+var endButton = document.getElementById("endButton");
+
+var countdownInterval = setInterval(function() {
+  var remainingTime = Math.floor(video.duration - video.currentTime);
+  var minutes = Math.floor(remainingTime / 60);
+  var seconds = remainingTime % 60;
+  var timeString = ('0' + minutes).slice(-2) + ':' + ('0' + seconds).slice(-2);
+  timerElement.innerText = timeString;
+  if (remainingTime <= 0) {
+    clearInterval(countdownInterval);
+    endButton.style.display = "block";
+  }
+}, 1000); 
+
+
+timerElement.style.display = "none";
+endButton.style.display = "none";
+
+
+video.onplay = function() {
+  timerElement.style.display = "block";
+};
+
+
+video.onended = function() {
+  endButton.style.display = "block";
+};
+</script>
+
+
+
+
+
+
+</body>
+</html>

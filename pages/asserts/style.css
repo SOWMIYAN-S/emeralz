@@ -1,0 +1,127 @@
+#promo, #promo2{
+  
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.service h3{
+  
+  font-size: 30px;
+  font-family: mon;
+  text-align: center;
+  color: white;
+  background-color: #04c34b;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+
+.service{
+  text-align: center;
+  color: white;
+  background-color: #04c34b;
+  
+  
+  
+  
+}
+
+
+.service-list{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+
+
+summary{
+  padding: 30px 20px 30px 20px;
+  margin: 20px;
+  font-size: 35px;
+}
+
+li{
+  font-family: mont;
+  font-size: 20px;
+  padding: 10px;
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  
+  
+  
+}
+
+body{
+  font-family: em;
+  margin: 0;
+  background-color: black;
+}
+.brand{
+  
+  height: 100px;
+  width: 200px;
+  background-position: top left;
+}
+
+header{
+  background-color: black;
+}
+
+.navigation{
+  font-family: em;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  font-size: 150%;
+  background-color: #04c34b;
+  padding: 15px;
+}
+
+
+a{
+  
+  color: white;
+  text-decoration: none;
+  
+}
+
+.navimg{
+  
+  height: 100%;
+  width: 100%;
+}
+
+.ncont{
+  display: flex;
+   }
+   
+
+
+
+
+footer{
+  
+  font-family: mon;
+  text-align: center;
+  background-color: black;
+  color: #04c34b;
+  padding: 10px 10px 100px 10px;
+  margin-bottom: 0px;
+  font-size: 10px;
+  
+}
+
+body{
+  
+  margin: 0px;
+  padding: 0px;
+}

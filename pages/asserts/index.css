@@ -1,0 +1,106 @@
+body{
+  font-family: em;
+  margin: 0;
+  padding: 0px;
+}
+.brand{
+  
+  height: 100px;
+  width: 200px;
+  background-position: top left;
+}
+
+header{
+  background-color: black;
+}
+
+.navigation{
+  font-family: em;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  font-size: 150%;
+  background-color: green;
+  padding: 15px;
+}
+
+
+a{
+  
+  color: white;
+  text-decoration: none;
+  
+}
+
+.navimg{
+  
+  height: 100%;
+  width: 100%;
+}
+
+.ncont{
+  display: flex;
+   }
+   
+
+
+.con{
+  
+  margin: 10px 5px;
+  padding: 0px;
+  border-radius: 15px;
+  background-color: ghostwhite;
+  
+}
+
+.conimg{
+  height:240px;
+  width: 240px;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+
+footer{
+  
+  font-family: mont;
+  text-align: center;
+  background-color: black;
+  color: #04c34b;
+  padding: 10px 10px 100px 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  
+}
+
+
+
+button{
+  font-family: mon;
+  margin: 10px;
+  background-color: blue;
+  color: ghostwhite;
+  padding: 10px 50px 10px 50px;
+  font-size: 30px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+
+.product{
+  font-family: mon;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.con:hover{
+  background-color:green;
+  color: white;
+}
+
+button:hover{
+  background-color: ghostwhite;
+  color:blue;
+}

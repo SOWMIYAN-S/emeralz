@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#videoContainer {
+  position: relative;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+}
+
+#timer {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#endButton {
+  display: none;
+}
+
+.brand{
+  
+  height: 100px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+header{
+  background-color: black;
+}
+
+.navimg{
+  
+  height: 100%;
+  width: 100%;
+}
+
+.ncont{
+  display: flex;
+   }
+   
+.material-symbols-outlined{
+  color: deepskyblue;
+  position: absolute;
+  font-size: 50px !important;
+  right: 20px;
+  top: 25px;
+}
+
+p{
+  color: red;
+  background-color: blue
+}

@@ -1,0 +1,140 @@
+html {
+    background-color: white;
+
+}
+
+header{
+  font-family:'EM';
+  color: limegreen;
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  margin: 0px;
+  
+}
+
+h2{
+  font-family:'mont';
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+form{
+  font-family:'mont';
+  text-align: center;
+  background-image: url("images/others/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 20px;
+  
+}
+
+input {
+  font-family:'mont';
+  background-color: green; /* Green */
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input::placeholder {
+  text-align: center;
+  font-family: 'mont'; 
+  color: white;
+}
+
+input:hover{
+  
+  background: lightseagreen;
+}
+
+#payb{
+  font-family: 'mont';
+  font-size: 15px;
+  background-color: orange;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+#payb:hover{
+  font-family: 'mont';
+  font-size: 15px;
+  background-color: orangered;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+marquee{
+  font-family:'EM';
+  background-color:green;
+  color: white;
+  padding: 5px;
+  
+}
+
+footer{
+  
+  font-family: mont;
+  text-align: center;
+  background-color: black;
+  color: #04c34b;
+  padding: 10px 10px 100px 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+
+a {
+
+  text-decoration: none;
+  color: white;
+}
+
+.tos {
+  font-family: mont;
+  margin: 20px;
+  padding: 20px;
+  background-color: #04c34b;
+  color: black;
+}
+
+h3{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+b{
+  color: white;
+}
+
+

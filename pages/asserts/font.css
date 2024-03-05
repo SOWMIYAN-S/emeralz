@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'em';
+  src: url('font/Vogue.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'mont';
+  src: url('font/Mont-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'IN';
+  src: url('font/ClassicalDiary-Regular Demo.ttf') format('truetype'),
+    url('font/ClassicalDiary-Regular\ Demo.ttf') format('truetype');
+}
