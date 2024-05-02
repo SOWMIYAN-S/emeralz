@@ -1,5 +1,5 @@
 body{
-  font-family: em;
+  font-family: mont;
   margin: 0;
   padding: 0px;
   background-color: #04c34b;
@@ -16,7 +16,7 @@ header{
 }
 
 .navigation{
-  font-family: em;
+  font-family: mont;
   display: flex;
   justify-content: space-evenly;
   margin: 0px;
@@ -77,7 +77,7 @@ button{
 
 
 .product{
-  font-family: mon;
+  font-family: mont;
   text-align: center;
   display: flex;
   flex-wrap: wrap;

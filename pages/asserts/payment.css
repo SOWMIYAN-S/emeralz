@@ -99,14 +99,13 @@ marquee{
 
 footer{
   
-  font-family: mont;
+  text-decoration: none;  font-family: mont;
   text-align: center;
   background-color: black;
   color: #04c34b;
   padding: 10px 10px 100px 10px;
   margin-bottom: 0px;
   font-size: 15px;
-  text-decoration: none;
   
 }
 

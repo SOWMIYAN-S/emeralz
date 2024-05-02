@@ -6,58 +6,41 @@
   
 }
 
+.service-header{
 
-.service h3{
-  
-  font-size: 30px;
-  font-family: mon;
-  text-align: center;
-  color: white;
-  background-color: #04c34b;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 10px;
-}
-
-
-
-.service{
-  text-align: center;
-  color: white;
-  background-color: #04c34b;
-  
-  
-  
-  
-}
-
-
-.service-list{
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 40px;
-}
-
-
-
-summary{
-  padding: 30px 20px 30px 20px;
-  margin: 20px;
-  font-size: 35px;
-}
-
-li{
+  color: #04c34b;
   font-family: mont;
+  text-align: center;
+  font-size: 40px;
+}
+
+.services-inner-header{
+  color: white;
   font-size: 20px;
+  text-align: center;
+}
+
+.services-content{
+  text-align: center;
+  color: #04c34b;
+  font-size: 15px;
+  padding: 20px;
+
+}
+
+.services{
+  text-align:center;
+  background-color: transparent;
   padding: 10px;
-  list-style-type: none;
-  background-color: white;
-  color: black;
-  
-  
-  
+  margin: 50px;
+  border: 2px solid #04c34b;
+  border-radius: 10px;
+  font-family: mont;
+}
+
+p{
+
+  text-align: center;
 }
 
 body{
@@ -91,6 +74,7 @@ a{
   
   color: white;
   text-decoration: none;
+  font-family: mont;
   
 }
 
@@ -110,7 +94,8 @@ a{
 
 footer{
   
-  font-family: mon;
+  text-decoration: none; 
+  font-family: mont;
   text-align: center;
   background-color: black;
   color: #04c34b;
@@ -125,3 +110,9 @@ body{
   margin: 0px;
   padding: 0px;
 }
+
+#iconx{
+  font-size: 50px;
+  color: #00ffea;
+}
+
